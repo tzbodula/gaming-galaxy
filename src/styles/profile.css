@@ -1,0 +1,732 @@
+.socials-desktop-view {
+    color: #fff;
+    border: 2px solid #ce4993;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 15px;
+    display: flex;
+  }
+  
+  .figma {
+    height: 100%;
+    background-image: url("/src/assets/figma1.png");
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    flex-basis: 100%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 5rem;
+    padding-left: .063rem;
+    padding-right: 2.313rem;
+    display: flex;
+  }
+  
+  .rectangle {
+    width: 65%;
+    background-color: #10061b;
+    border: 2px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 11%;
+    justify-content: space-between;
+    align-self: center;
+    align-items: center;
+    margin-top: .75rem;
+    margin-left: .438rem;
+    padding-left: 1.625rem;
+    padding-right: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    display: flex;
+  }
+  
+  .ellipse {
+    width: 94px;
+    height: 94px;
+    object-fit: cover;
+    align-self: center;
+  }
+  
+  .flex-container {
+    height: 55%;
+    flex-direction: column;
+    flex-basis: 32%;
+    justify-content: space-between;
+    align-self: center;
+    align-items: stretch;
+    margin-top: .125rem;
+    display: flex;
+  }
+  
+  .creator-name {
+    align-self: flex-start;
+    margin-left: .063rem;
+  }
+  
+  .num-124-k-followers-24-following {
+    align-self: flex-start;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 30px;
+  }
+  
+  .rectangle-6 {
+    color: #fff;
+    height: 70%;
+    background-color: #ce4993;
+    border: 1px solid #000;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 25%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: .125rem;
+    margin-left: 10.313rem;
+    padding-left: .25rem;
+    font-family: Oxanium, Arial;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    display: flex;
+  }
+  
+  .follow {
+    align-self: center;
+    margin-left: .125rem;
+  }
+  
+  .flex-container-1 {
+    width: 65%;
+    flex-direction: row;
+    flex-basis: 7%;
+    justify-content: space-between;
+    align-self: center;
+    align-items: stretch;
+    margin-left: .438rem;
+    display: flex;
+  }
+  
+  .rectangle-1 {
+    color: #fff;
+    height: 100%;
+    background-color: #ce4993;
+    border: 2px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: .063rem;
+    padding-right: .125rem;
+    font-family: Oxanium, Arial;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+  }
+  
+  .socials {
+    align-self: center;
+    margin-top: .063rem;
+  }
+  
+  .rectangle-2 {
+    text-align: center;
+    color: #fff;
+    height: 100%;
+    background-color: #10061b;
+    border: 2px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: .063rem;
+    font-family: Oxanium, Arial;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+  }
+  
+  .games {
+    align-self: center;
+    margin-top: .063rem;
+  }
+  
+  .rectangle-3 {
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    background-color: #10061b;
+    border: 2px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: .063rem;
+    font-family: Oxanium, Arial;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+  }
+  
+  .awards {
+    align-self: center;
+    margin-top: .063rem;
+  }
+  
+  .rectangle-4 {
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    background-color: #10061b;
+    border: 2px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: .063rem;
+    padding-top: .063rem;
+    padding-right: .063rem;
+    font-family: Oxanium, Arial;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+  }
+  
+  .jobs {
+    align-self: center;
+    margin-top: .063rem;
+  }
+  
+  .rectangle-5 {
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    background-color: #10061b;
+    border: 2px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: .063rem;
+    padding-left: .063rem;
+    font-family: Oxanium, Arial;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    display: flex;
+  }
+  
+  .friends {
+    align-self: center;
+    margin-top: .063rem;
+  }
+  
+  .flex-container-2 {
+    text-align: center;
+    width: 65%;
+    flex-direction: row;
+    flex-basis: 23%;
+    justify-content: space-between;
+    align-self: center;
+    align-items: stretch;
+    margin-left: .438rem;
+    line-height: 95px;
+    display: flex;
+  }
+  
+  .rectangle-7 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 1.938rem;
+    padding-right: .125rem;
+    display: flex;
+  }
+  
+  .channel-name {
+    align-self: center;
+    margin-top: .375rem;
+    font-size: .75rem;
+    line-height: 15px;
+  }
+  
+  .num-104-k {
+    align-self: center;
+    font-size: 4.75rem;
+    font-weight: 700;
+  }
+  
+  .subscribers {
+    align-self: center;
+    margin-bottom: .313rem;
+    line-height: 30px;
+  }
+  
+  .rectangle-15 {
+    color: #10061b;
+    text-align: center;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: .063rem;
+    margin-bottom: .125rem;
+    margin-left: .125rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit {
+    align-self: center;
+  }
+  
+  .rectangle-8 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 1.938rem;
+    padding-left: .063rem;
+    font-size: .75rem;
+    display: flex;
+  }
+  
+  .channel-name-1 {
+    align-self: center;
+    margin-top: .375rem;
+    margin-left: .063rem;
+    line-height: 15px;
+  }
+  
+  .num-14-m {
+    align-self: center;
+    margin-left: .063rem;
+    font-size: 4.75rem;
+    font-weight: 700;
+  }
+  
+  .video-views {
+    align-self: center;
+    margin-bottom: .313rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  
+  .rectangle-16 {
+    color: #10061b;
+    text-align: center;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: .063rem;
+    margin-bottom: .125rem;
+    margin-left: .125rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit-1 {
+    align-self: center;
+  }
+  
+  .rectangle-9 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: .063rem;
+    padding-top: 1.938rem;
+    padding-left: .125rem;
+    display: flex;
+  }
+  
+  .channel-name-2 {
+    align-self: center;
+    margin-top: .375rem;
+    font-size: .75rem;
+    line-height: 15px;
+  }
+  
+  .num-106-k {
+    align-self: center;
+    margin-left: .063rem;
+    font-size: 4.75rem;
+    font-weight: 700;
+  }
+  
+  .subscribers-1 {
+    align-self: center;
+    margin-bottom: .313rem;
+    line-height: 30px;
+  }
+  
+  .rectangle-17 {
+    text-align: center;
+    color: #10061b;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: .063rem;
+    margin-bottom: .125rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit-2 {
+    align-self: center;
+  }
+  
+  .rectangle-10 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: .063rem;
+    padding-top: 1.938rem;
+    padding-left: .063rem;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .channel-name-3 {
+    align-self: center;
+    margin-top: .375rem;
+    font-size: .75rem;
+    line-height: 15px;
+  }
+  
+  .num-104-k-1 {
+    align-self: center;
+    margin-left: .063rem;
+    font-size: 4.75rem;
+    font-weight: 700;
+    line-height: 95px;
+  }
+  
+  .followers {
+    align-self: center;
+    margin-bottom: .313rem;
+  }
+  
+  .rectangle-18 {
+    color: #10061b;
+    text-align: center;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-top: .063rem;
+    margin-bottom: .125rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit-3 {
+    align-self: center;
+  }
+  
+  .flex-container-3 {
+    text-align: center;
+    width: 65%;
+    flex-direction: row;
+    flex-basis: 23%;
+    justify-content: space-between;
+    align-self: center;
+    align-items: stretch;
+    margin-left: .438rem;
+    font-size: .75rem;
+    display: flex;
+  }
+  
+  .rectangle-11 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 2.188rem;
+    font-size: 4.75rem;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .channel-name-4 {
+    align-self: center;
+    margin-top: .375rem;
+    margin-left: .063rem;
+    font-size: .75rem;
+    line-height: 15px;
+  }
+  
+  .num-14-k {
+    align-self: center;
+    font-weight: 700;
+    line-height: 95px;
+  }
+  
+  .followers-1 {
+    align-self: center;
+    margin-bottom: .375rem;
+    font-size: 1.5rem;
+  }
+  
+  .rectangle-21 {
+    color: #10061b;
+    text-align: center;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-bottom: .063rem;
+    margin-left: .125rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit-4 {
+    align-self: center;
+  }
+  
+  .rectangle-12 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    padding-top: 2.188rem;
+    padding-right: .063rem;
+    font-size: 1.5rem;
+    display: flex;
+  }
+  
+  .channel-name-5 {
+    align-self: center;
+    margin-top: .375rem;
+    margin-left: .125rem;
+    font-size: .75rem;
+  }
+  
+  .num-104-k-2 {
+    align-self: center;
+    font-size: 4.75rem;
+    font-weight: 700;
+    line-height: 95px;
+  }
+  
+  .followers-2 {
+    align-self: center;
+    margin-bottom: .375rem;
+    line-height: 30px;
+  }
+  
+  .rectangle-20 {
+    color: #10061b;
+    text-align: center;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-bottom: .063rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit-5 {
+    align-self: center;
+  }
+  
+  .rectangle-13 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: .063rem;
+    padding-top: 2.188rem;
+    padding-left: .063rem;
+    display: flex;
+  }
+  
+  .channel-name-6 {
+    align-self: center;
+    margin-top: .375rem;
+  }
+  
+  .num-104-k-3 {
+    align-self: center;
+    margin-left: .063rem;
+    font-size: 4.75rem;
+    font-weight: 700;
+    line-height: 95px;
+  }
+  
+  .followers-3 {
+    align-self: center;
+    margin-bottom: .375rem;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+  
+  .rectangle-19 {
+    text-align: center;
+    color: #10061b;
+    width: 55%;
+    background-color: #ce4993;
+    border: none;
+    border-radius: 50px;
+    flex-direction: row;
+    flex-basis: 17%;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin-bottom: .063rem;
+    margin-left: .063rem;
+    font-family: Oxanium, Arial;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 30px;
+    display: flex;
+  }
+  
+  .visit-6 {
+    align-self: center;
+  }
+  
+  .rectangle-14 {
+    height: 100%;
+    background-color: #10061b;
+    border: 3px solid #ce4993;
+    border-radius: 50px;
+    flex-direction: column;
+    flex-basis: 21%;
+    justify-content: center;
+    align-self: flex-start;
+    align-items: center;
+    margin-left: .063rem;
+    padding-right: .063rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 80px;
+    display: flex;
+  }
+  
+  .eight {
+    align-self: center;
+    margin-bottom: 1.125rem;
+    margin-left: .125rem;
+  }
+  
+  .years-experience {
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  

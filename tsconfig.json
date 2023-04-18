@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/social-logins.js",
+    "src/components/email-form.js",
+    "src/pages/grow.tsx", 
+    "src/pages/post/[slug].js", 
+    "./stripe.d.ts", 
+    "src/pages/_app.js"
+, "src/components/CheckoutForm.jsx", "src/components/CheckoutForm/PaymentForm.tsx", "src/components/CheckoutForm/CheckoutForm.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
