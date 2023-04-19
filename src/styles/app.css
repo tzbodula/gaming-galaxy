@@ -30,15 +30,6 @@
   src: url("../../public/fonts/Oxanium-ExtraBold.woff");
 }
 
-@font-face {
-  font-family: "dreamscape";
-  src: url("../../public/fonts/Dreamscape.woff");
-}
-
-@font-face {
-  font-family: "dreamscape-sans";
-  src: url("../../public/fonts/Dreamscape\ Sans.woff");
-}
 
 .email-icon {
   margin-left: auto;
