@@ -7,37 +7,37 @@
 
 @font-face {
   font-family: "oxanium-light";
-  src: url("../../public/fonts/Oxanium-Light.ttf");
+  src: url("../../public/fonts/Oxanium-Light.woff");
 }
 
 @font-face {
   font-family: "oxanium-medium";
-  src: url("../../public/fonts/Oxanium-Medium.ttf");
+  src: url("../../public/fonts/Oxanium-Medium.woff");
 }
 
 
 @font-face {
   font-family: "oxanium-semibold";
-  src: url("../../public/fonts/Oxanium-SemiBold.ttf");
+  src: url("../../public/fonts/Oxanium-SemiBold.woff");
 }
 @font-face {
   font-family: "oxanium-bold";
-  src: url("../../public/fonts/Oxanium-Bold.ttf");
+  src: url("../../public/fonts/Oxanium-Bold.woff");
 }
 
 @font-face {
   font-family: "oxanium-extrabold";
-  src: url("../../public/fonts/Oxanium-ExtraBold.ttf");
+  src: url("../../public/fonts/Oxanium-ExtraBold.woff");
 }
 
 @font-face {
   font-family: "dreamscape";
-  src: url("../../public/fonts/Dreamscape.ttf");
+  src: url("../../public/fonts/Dreamscape.woff");
 }
 
 @font-face {
   font-family: "dreamscape-sans";
-  src: url("../../public/fonts/Dreamscape\ Sans.ttf");
+  src: url("../../public/fonts/Dreamscape\ Sans.woff");
 }
 
 .email-icon {

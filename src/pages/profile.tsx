@@ -63,15 +63,6 @@ const Profile = () => {
   if (session) {
     return (
       <>
-        {/*
-            If the user is viewing this page, that means they have an account and are succesfully logged in.
-            The "Header" section will pull the user's username, tagline and location
-            The "Tabs" section will allow the user to switch between the information displayed on their profile
-              TODO: Setup the "Orders" Tab when commerce.js gets installed
-            The "Content" section is where the component is displayed respective to the tab currently selected
-            */}
-
-        {/* Header, contains username, pfp, background, brand name, account creation date and country*/}
 
         <div>
           <Particles id="tsparticles" options={options} init={particlesInit} loaded={particlesLoaded} />
