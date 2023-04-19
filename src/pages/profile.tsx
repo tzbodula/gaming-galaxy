@@ -63,6 +63,10 @@ const Profile = () => {
   if (session) {
     return (
       <>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c837b1 (Production build)
 
         <div>
           <Particles id="tsparticles" options={options} init={particlesInit} loaded={particlesLoaded} />
