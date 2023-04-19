@@ -63,7 +63,6 @@ const Profile = () => {
   if (session) {
     return (
       <>
-
         <div>
           <Particles id="tsparticles" options={options} init={particlesInit} loaded={particlesLoaded} />
           <div className=' '>
