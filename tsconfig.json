@@ -29,7 +29,7 @@
     "src/pages/post/[slug].js", 
     "./stripe.d.ts", 
     "src/pages/_app.js"
-, "src/components/CheckoutForm.jsx", "src/components/CheckoutForm/PaymentForm.tsx", "src/components/CheckoutForm/CheckoutForm.jsx"  ],
+, "src/components/CheckoutForm.jsx", "src/components/CheckoutForm/PaymentForm.tsx", "src/components/CheckoutForm/CheckoutForm.jsx", "src/pages/create/game/[slug]/index.jsx", "src/context/ContextProvider.js", "src/data/dummy.js"  ],
   "exclude": [
     "node_modules"
   ]

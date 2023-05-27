@@ -48,14 +48,28 @@
     font-weight: normal;
     font-style: normal;
 }
-body {
+html, body {
 	font-family: 'oxanium', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
 	font-weight: 500;
 	color: #d4d4d4;
+	margin: 0; /* Stripping out margin and padding so .bg can be full width*/
+	padding: 0;
+	width: 100%;  /*Setting parent width -- child width is relative*/
+	height: 100%; /*Setting parent height -- child height is relative*/
 }
+.bg {
+	box-sizing: border-box; /*Not necessary in this situation*/
+	display: block; /*Not necessary, but we do want it this way*/
+	width: 100%;  
+	height: 100%; /* Now 100% height will work */
+	padding: 0; /* No padding */
+	margin: 0; /* No margins */
+	/* Shorthand: image, repeat, X align, Y align. */
+	background-size: cover; /* Cover all available space*/
+  }
 .img {
 	max-width: 100%;
 	transition: all 0.3s ease-out 0s;
@@ -77,6 +91,13 @@ a,
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
 }
+
+#tsparticles {
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+}
+
 a:focus,
 .btn:focus,
 .button:focus {

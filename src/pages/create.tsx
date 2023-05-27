@@ -58,7 +58,7 @@ function Create({bronze}) {
     const handleClick = (slug, type) => {
         if (type == 'game') {
             router.push({
-                pathname: `/create/[slug]`,
+                pathname: `/create/game/[slug]`,
                 query: {slug: slug}
             })
         } else if (type == 'bronze') {
@@ -248,6 +248,7 @@ function Create({bronze}) {
 }
 
 export async function getServerSideProps() {
+    console.log("Create GSSP called!")
     const query = `*[_type == 'bronzeproduct']{
       _id,
       name,
@@ -260,7 +261,7 @@ export async function getServerSideProps() {
     return {
       props: { bronze }, // will be passed to the page component as props
     }
-  }
+}
   
 
 export default Create;
