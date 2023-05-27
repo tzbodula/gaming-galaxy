@@ -1,8 +1,8 @@
 import React from 'react';
 import { GridComponent, Inject, ColumnsDirective, ColumnDirective, Search, Page } from '@syncfusion/ej2-react-grids';
 
-import { employeesData, employeesGrid } from '../../../data/dummy';
-import { Header } from '../../../components/create';
+import { employeesData, employeesGrid } from '../../data/dummy';
+import { Header } from './';
 
 const TwitchContent = ({name, twitchData}) => {
   console.log("Twitch data passed to component is " + twitchData)

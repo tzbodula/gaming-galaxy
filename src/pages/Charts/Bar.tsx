@@ -14,7 +14,6 @@ const Bar = () => {
       <div className=" w-full">
         <ChartComponent
           id="charts"
-          primaryXAxis={barPrimaryXAxis}
           primaryYAxis={barPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
           tooltip={{ enable: true }}

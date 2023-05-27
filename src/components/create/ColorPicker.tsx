@@ -1,7 +1,7 @@
 import React from 'react';
 import { ColorPickerComponent } from '@syncfusion/ej2-react-inputs';
 
-import { Header } from '../../../components/create';
+import { Header } from './';
 
 const change = (args) => {
   document.getElementById('preview').style.backgroundColor = args.currentValue.hex;

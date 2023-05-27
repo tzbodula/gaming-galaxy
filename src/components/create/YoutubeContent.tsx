@@ -1,8 +1,8 @@
 import React from 'react';
 import { GridComponent, ColumnsDirective, ColumnDirective, Resize, Sort, ContextMenu, Filter, Page, ExcelExport, PdfExport, Edit, Inject } from '@syncfusion/ej2-react-grids';
 
-import { contextMenuItems, ordersGrid } from '../../../data/dummy';
-import { Header } from '../../../components/create';
+import { contextMenuItems, ordersGrid } from '../../data/dummy';
+import { Header } from './';
 
 const YoutubeContent = ({name, youtubeData}) => {
   const editing = { allowDeleting: true, allowEditing: true };
@@ -16,7 +16,6 @@ const YoutubeContent = ({name, youtubeData}) => {
         allowSorting
         allowExcelExport
         allowPdfExport
-        contextMenuItems={contextMenuItems}
         editSettings={editing}
       >
         <ColumnsDirective>

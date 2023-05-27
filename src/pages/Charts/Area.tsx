@@ -14,7 +14,7 @@ const Area = () => {
       <div className="w-full">
         <ChartComponent
           id="charts"
-          primaryXAxis={areaPrimaryXAxis}
+
           primaryYAxis={areaPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
           background={currentMode === 'Dark' ? '#33373E' : '#fff'}

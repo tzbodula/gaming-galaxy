@@ -2,9 +2,9 @@ import { GetServerSideProps } from 'next';
 import LogoSquare from '../../../../../public/img/logo/logo-square.png'
 import youtubeSearch from "youtube-search"
 import React, { useEffect, useState } from 'react';
-import { Audience, YoutubeContent, Calendar, TwitchContent, Stacked, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from '../../../../components/create';
-import { Navbar, Footer, Sidebar, ThemeSettings } from '../../../../components/create';
-import { useStateContext } from '../../../../context/ContextProvider';
+import { Audience, YoutubeContent, Calendar, TwitchContent, Stacked, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './create';
+import { Navbar, Footer, Sidebar, ThemeSettings } from './create';
+import { useStateContext } from '../context/ContextProvider';
 
 function GameDetails({data, twitchData, youtubeData}) {
     const [display, setDisplay] = useState('audience')

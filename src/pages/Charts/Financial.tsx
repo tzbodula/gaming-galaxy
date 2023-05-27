@@ -25,7 +25,6 @@ const Financial = () => {
       <div className="w-full">
         <ChartComponent
           id="charts"
-          primaryXAxis={FinancialPrimaryXAxis}
           primaryYAxis={FinancialPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
           tooltip={{ enable: true, shared: true }}

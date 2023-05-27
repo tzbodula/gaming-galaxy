@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
-
+import Image from 'next/image';
 import { Button } from '.';
 import { chatData } from '../../data/dummy';
 import { useStateContext } from '../../context/ContextProvider';
@@ -30,7 +30,7 @@ const Chat = () => {
         {chatData?.map((item, index) => (
           <div key={index} className="flex items-center gap-5 border-b-1 border-color p-3 leading-8 cursor-pointer">
             <div className="relative">
-              <img
+              <Image
                 className="rounded-full h-10 w-10"
                 src={item.image}
                 alt={item.message}

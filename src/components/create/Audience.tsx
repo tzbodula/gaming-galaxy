@@ -1,13 +1,14 @@
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
+import Image from 'next/image';
 import { GoPrimitiveDot } from 'react-icons/go';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { IconContext } from "react-icons";
-import { Stacked, Pie, Button, LineChart, SparkLine } from '../../../components/create';
-import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../../../data/dummy';
-import { useStateContext } from '../../../context/ContextProvider';
-import product9 from '../../../data/product9.jpg';
+import { Stacked, Pie, Button, LineChart } from './';
+import { earningData, medicalproBranding, recentTransactions, weeklyStats, dropdownData, SparklineAreaData, ecomPieChartData } from '../../data/dummy';
+import { useStateContext } from '../../context/ContextProvider';
+import product9 from '../../data/product9.jpg'
 
 const DropDown = ({ currentMode }) => (
   <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
@@ -82,12 +83,12 @@ const Audience = () => {
               </div>
 
               <div className="mt-5">
-                <SparkLine currentColor={currentColor} id="line-sparkLine" type="Line" height="80px" width="250px" data={SparklineAreaData} color={currentColor} />
+
               </div>
 
             </div>
             <div>
-              <Stacked currentMode={currentMode} width="320px" height="360px" />
+              <Stacked  width="320px" height="360px" />
             </div>
           </div>
         </div>
@@ -105,7 +106,7 @@ const Audience = () => {
             </div>
 
             <div className="mt-4">
-              <SparkLine currentColor={currentColor} id="column-sparkLine" height="100px" type="Column" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" />
+             
             </div>
           </div>
 
@@ -157,8 +158,7 @@ const Audience = () => {
                 color="white"
                 bgColor={currentColor}
                 text="Add"
-                borderRadius="10px"
-              />
+                borderRadius="10px" icon={undefined} bgHoverColor={undefined} size={undefined} width={undefined}              />
             </div>
 
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
@@ -205,7 +205,7 @@ const Audience = () => {
               </div>
             ))}
             <div className="mt-4">
-              <SparkLine currentColor={currentColor} id="area-sparkLine" height="160px" type="Area" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" />
+              
             </div>
           </div>
 
@@ -248,7 +248,7 @@ const Audience = () => {
             <p className="text-md font-semibold mb-2">Leaders</p>
             <div className="flex gap-4">
               {medicalproBranding.leaders.map((item, index) => (
-                <img key={index} className="rounded-full w-8 h-8" src={item.image} alt="" />
+                <Image key={index} className="rounded-full w-8 h-8" src={item.image} alt="" />
               ))}
             </div>
           </div>
@@ -258,8 +258,7 @@ const Audience = () => {
                 color="white"
                 bgColor={currentColor}
                 text="Add"
-                borderRadius="10px"
-              />
+                borderRadius="10px" icon={undefined} bgHoverColor={undefined} size={undefined} width={undefined}              />
             </div>
 
             <p className="text-gray-400 text-sm">36 Recent Transactions</p>
@@ -273,7 +272,7 @@ const Audience = () => {
             </button>
           </div>
           <div className="mt-10">
-            <img
+            <Image
               className="md:w-96 h-50 "
               src={product9}
               alt=""
@@ -290,8 +289,7 @@ const Audience = () => {
                   color="white"
                   bgColor={currentColor}
                   text="Read More"
-                  borderRadius="10px"
-                />
+                  borderRadius="10px" icon={undefined} bgHoverColor={undefined} size={undefined} width={undefined}                />
               </div>
             </div>
           </div>

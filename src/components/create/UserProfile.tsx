@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
-
+import Image from 'next/image';
 import { Button } from '.';
 import { userProfileData } from '../../data/dummy';
 import { useStateContext } from '../../context/ContextProvider';
@@ -18,11 +18,10 @@ const UserProfile = () => {
           color="rgb(153, 171, 180)"
           bgHoverColor="light-gray"
           size="2xl"
-          borderRadius="50%"
-        />
+          borderRadius="50%" bgColor={undefined} text={undefined} width={undefined}        />
       </div>
       <div className="flex gap-5 items-center mt-6 border-color border-b-1 pb-6">
-        <img
+        <Image
           className="rounded-full h-24 w-24"
           src={avatar}
           alt="user-profile"
@@ -57,8 +56,7 @@ const UserProfile = () => {
           bgColor={currentColor}
           text="Logout"
           borderRadius="10px"
-          width="full"
-        />
+          width="full" icon={undefined} bgHoverColor={undefined} size={undefined}        />
       </div>
     </div>
 

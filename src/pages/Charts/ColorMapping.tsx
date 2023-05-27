@@ -14,7 +14,6 @@ const ColorMapping = () => {
       <div className="w-full">
         <ChartComponent
           id="charts"
-          primaryXAxis={ColorMappingPrimaryXAxis}
           primaryYAxis={ColorMappingPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
           legendSettings={{ mode: 'Range', background: 'white' }}
@@ -37,7 +36,7 @@ const ColorMapping = () => {
           </SeriesCollectionDirective>
           <RangeColorSettingsDirective>
             {/* eslint-disable-next-line react/jsx-props-no-spreading */}
-            {rangeColorMapping.map((item, index) => <RangeColorSettingDirective key={index} {...item} />)}
+            {/* {rangeColorMapping.map((item, index) => <RangeColorSettingDirective key={index} {...item} />)} */}
           </RangeColorSettingsDirective>
         </ChartComponent>
       </div>
