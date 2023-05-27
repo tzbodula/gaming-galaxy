@@ -57,15 +57,11 @@ module.exports = {
       },
 
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
         'oxanium-light': ['oxanium-light', 'sans-serif'],
         'oxanium-medium': ['oxanium-medium', 'sans-serif'],
         'oxanium-semibold': ['oxanium-semibold', 'sans-serif'],
         'oxanium-bold': ['oxanium-bold', 'sans-serif'],
         'oxanium-extrabold': ['oxanium-extrabold', 'sans-serif'],
-        'dreamscape': ['dreamscape', 'sans-serif'],
-        'dreamscape-text': ['dreamscape-sans', 'sans-serif'],
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
       },
   },
   variants: {

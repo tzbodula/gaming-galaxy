@@ -6,27 +6,27 @@
 
 
 @font-face {
-  font-family: "oxanium-light";
+  font-family: oxanium-light;
   src: url("../../public/fonts/Oxanium-Light.ttf");
 }
 
 @font-face {
-  font-family: "oxanium-medium";
+  font-family: oxanium-medium;
   src: url("../../public/fonts/Oxanium-Medium.ttf");
 }
 
 
 @font-face {
-  font-family: "oxanium-semibold";
+  font-family: oxanium-semibold;
   src: url("../../public/fonts/Oxanium-SemiBold.ttf");
 }
 @font-face {
-  font-family: "oxanium-bold";
+  font-family: oxanium-bold;
   src: url("../../public/fonts/Oxanium-Bold.ttf");
 }
 
 @font-face {
-  font-family: "oxanium-extrabold";
+  font-family: oxanium-extrabold;
   src: url("../../public/fonts/Oxanium-ExtraBold.ttf");
 }
 

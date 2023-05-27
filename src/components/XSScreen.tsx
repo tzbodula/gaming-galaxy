@@ -92,16 +92,16 @@ const XSScreen1: FunctionComponent = () => {
         <div className="mx-auto z-10 bg-nightsky/70 w-3/4">
 
 
-          <b className="mt-4 inline-block text-[1.6rem]  min-w-full  italic text-center ">
+          <b className="font-oxanium-semibold mt-4 inline-block text-[1.6rem]  min-w-full  italic text-center ">
             THE NEXT GENERATION
           </b>
-          <b className="inline-block text-[1.8rem]  min-w-full  -mt-4 italic text-center ">
+          <b className="font-oxanium-bold inline-block text-[1.8rem]  min-w-full  -mt-4 italic text-center ">
             OF GAMING CREATORS
           </b>
-          <div className={`transition-all inline-block -mt-1 text-[3.4rem] ${state == "success" ? "text-green-400" : state == "error" ? "text-red-600" : `text-${color}`} font-extrabold  -mt-4 min-w-full  text-center italic `}>
+          <div className={`font-oxanium-extrabold transition-all inline-block -mt-1 text-[3.4rem] ${state == "success" ? "text-green-400" : state == "error" ? "text-red-600" : `text-${color}`} font-extrabold  -mt-4 min-w-full  text-center italic `}>
             ARE HERE
           </div>
-          <b className="inline-block text-[1.1rem]   min-w-full  italic text-center">
+          <b className="font-oxanium-semibold inline-block text-[1.1rem]   min-w-full  italic text-center">
           JOIN OUR LIST FOR WEEKLY INSIGHT!
           </b>
   
@@ -126,23 +126,23 @@ const XSScreen1: FunctionComponent = () => {
       </div>
 
       <div className="">
-        <p className={`mt-12 ont-oxanium-semibold uppercase italic bg-nightsky/70 rounded-2xl mx-auto w-fit p-2 border-2 border-${color} `}>WHY GG? CLICK AN ITEM!</p>
+        <p className={`mt-12 font-oxanium-semibold uppercase italic bg-nightsky/70 rounded-2xl mx-auto w-fit p-2 border-2 border-${color} `}>WHY GG? CLICK AN ITEM!</p>
         <div className="-mt-4 text-[0.76rem]">
 
      
-          <div onClick={() => setElement("predictor")} onMouseEnter={() => setElement("predictor")} className={element == "predictor" ? "transition-all mt-8  pt-1 mr-2 bg-sunset-yellow border-2 rounded-2xl border-sunset-yellow shadow-sunset-yellow font-extrabold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1  border-2 rounded-2xl border-sunset-yellow shadow-sunset-yellow font-extrabold inline-block w-[10rem] h-[1.8rem]"}>
+          <div onClick={() => setElement("predictor")} onMouseEnter={() => setElement("predictor")} className={element == "predictor" ? "transition-all mt-8  pt-1 mr-2 bg-sunset-yellow border-2 rounded-2xl border-sunset-yellow shadow-sunset-yellow font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1  border-2 rounded-2xl border-sunset-yellow shadow-sunset-yellow font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]"}>
             AUDIENCE ANALYTICS
           </div>
 
-          <div onClick={() => setElement("brand")} onMouseEnter={() => setElement("brand")} className={element == "brand" ? "mt-8 pt-1  mr-2 transition-all bg-sunset-orange border-2 rounded-2xl border-sunset-orange shadow-sunset-orange font-extrabold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1    border-2 rounded-2xl border-sunset-orange shadow-sunset-orange font-extrabold inline-block w-[10rem] h-[1.8rem]"}>
+          <div onClick={() => setElement("brand")} onMouseEnter={() => setElement("brand")} className={element == "brand" ? "mt-8 pt-1  mr-2 transition-all bg-sunset-orange border-2 rounded-2xl border-sunset-orange shadow-sunset-orange font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1    border-2 rounded-2xl border-sunset-orange shadow-sunset-orange font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]"}>
             FREE STUFF
           </div>
 
-          <div onClick={() => setElement("skills")} onMouseEnter={() => setElement("skills")} className={element == "skills" ? "mt-8 pt-1  mr-2 transition-all bg-sunset-red border-2 rounded-2xl border-sunset-red shadow-sunset-red font-extrabold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1   border-2 rounded-2xl border-sunset-red shadow-sunset-red  font-extrabold inline-block w-[10rem] h-[1.8rem]"}>
+          <div onClick={() => setElement("skills")} onMouseEnter={() => setElement("skills")} className={element == "skills" ? "mt-8 pt-1  mr-2 transition-all bg-sunset-red border-2 rounded-2xl border-sunset-red shadow-sunset-red font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1   border-2 rounded-2xl border-sunset-red shadow-sunset-red  font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]"}>
             CREATOR GROWTH
           </div>
 
-          <div onClick={() => setElement("team")} onMouseEnter={() => setElement("team")} className={element == "team" ? "mt-8 pt-1 mr-2   transition-all bg-sunset-pink  border-2 rounded-2xl border-sunset-pink  shadow-sunset-pink font-extrabold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1   border-2 rounded-2xl border-sunset-pink  shadow-sunset-pink  font-extrabold inline-block w-[10rem] h-[1.8rem]"}>
+          <div onClick={() => setElement("team")} onMouseEnter={() => setElement("team")} className={element == "team" ? "mt-8 pt-1 mr-2   transition-all bg-sunset-pink  border-2 rounded-2xl border-sunset-pink  shadow-sunset-pink font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]" : "bg-nightsky/70 mr-2 transition-all mt-8 pt-1   border-2 rounded-2xl border-sunset-pink  shadow-sunset-pink  font-oxanium-semibold inline-block w-[10rem] h-[1.8rem]"}>
             GG DISCOUNTS
           </div>
         </div>

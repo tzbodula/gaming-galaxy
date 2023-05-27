@@ -81,16 +81,16 @@ const XLScreen: FunctionComponent = () => {
 
       </div>
       <Fade triggerOnce>
-      <b className="absolute top-[4.19rem] left-[1.13rem] text-[2.18rem] inline-block w-[27.38rem] h-[5.88rem] italic">
+      <b className="font-oxanium-semibold absolute top-[4.19rem] left-[1.13rem] text-[2.18rem] inline-block w-[27.38rem] h-[5.88rem] italic">
         THE NEXT GENERATION
       </b>
-      <b className="absolute top-[6.38rem] left-[1.13rem] text-[1.88rem] inline-block w-[27.38rem] h-[5.88rem] italic">
+      <b className="font-oxanium-bold absolute top-[6.38rem] left-[1.13rem] text-[1.88rem] inline-block w-[27.38rem] h-[5.88rem] italic">
         OF GAMING CREATORS
       </b>
-      <b className="absolute top-[14.5rem] left-[1.13rem] text-[1.38rem] inline-block w-[27.38rem] h-[5.94rem] italic">
+      <b className="font-oxanium-semibold absolute top-[14.5rem] left-[1.13rem] text-[1.38rem] inline-block w-[27.38rem] h-[5.94rem] italic">
         JOIN OUR LIST FOR WEEKLY INSIGHT!
       </b>
-      <div className={`absolute top-[8.75rem] left-[1.13rem] text-[4.25rem] font-extrabold inline-block w-[27.38rem] h-[5.88rem] italic ${state == "success" ? "text-green-400" : state == "error" ? "text-red-600" : `text-${color}`}`}>
+      <div className={`font-oxanium-extrabold absolute top-[8.75rem] left-[1.13rem] text-[4.25rem] font-extrabold inline-block w-[27.38rem] h-[5.88rem] italic ${state == "success" ? "text-green-400" : state == "error" ? "text-red-600" : `text-${color}`}`}>
         ARE HERE
       </div>
       <div className={`absolute top-[2.56rem] left-[2.06rem] ${state == "success" ? "bg-green-400" : state == "error" ? "bg-red-600" : `bg-${color}`} shadow-2xl shadow-${state == "success" ? "shadow-green-400" : state == "error" ? "shadow-red-600" : `shadow-${color}`} w-[9.06rem] h-[0.19rem]`} />
@@ -121,30 +121,30 @@ const XLScreen: FunctionComponent = () => {
       </form>
       </Fade>
       <div className="absolute !top-8 !right-24">
-        <div className="  -mt-2 text-cloudy-day text-[0.80rem] font-extrabold inline-block w-[10rem] h-[2.19rem] ">
+        <div className="  -mt-2 text-cloudy-day text-[0.80rem] font-oxanium-semibold inline-block w-[10rem] h-[2.19rem] ">
             <p className="my-auto">WHY GG?</p>
             <p className="my-auto">HOVER AN ITEM!</p>
         </div>
         <div onMouseEnter={() => setElement("predictor")} className={element == "predictor" ? "mt-3 bg-sunset-yellow border-2 rounded-2xl border-sunset-yellow shadow-sunset-yellow shadow-2xl bg-gainsboro w-[11.63rem] h-[2.63rem]": "mt-3 transparent border-2 rounded-2xl border-sunset-yellow shadow-sunset-yellow shadow-2xl  bg-gainsboro w-[11.63rem] h-[2.63rem]"}>
-          <div className=" font-extrabold inline-block w-[11rem] h-[2.19rem] mt-2">
+          <div className=" font-oxanium-semibold inline-block w-[11rem] h-[2.19rem] mt-2">
             AUDIENCE ANALYTICS
           </div>
         </div>
 
         <div onMouseEnter={() => setElement("brand")} className={element == "brand" ? "mt-3 bg-sunset-orange border-2 rounded-2xl border-sunset-orange shadow-sunset-orange shadow-2xl   bg-gainsboro w-[11.63rem] h-[2.63rem]" : "mt-3 transparent border-2 rounded-2xl border-sunset-orange shadow-sunset-orange shadow-2xl  bg-gainsboro w-[11.63rem] h-[2.63rem]"}>
-        <div className="font-extrabold inline-block w-[11rem] h-[2.19rem] mt-2">
+        <div className="font-oxanium-semibold inline-block w-[11rem] h-[2.19rem] mt-2">
           FREE STUFF
         </div>
           </div>
 
         <div onMouseEnter={() => setElement("skills")} className={element == "skills" ? "mt-3 bg-sunset-red border-2 rounded-2xl border-sunset-red shadow-sunset-red shadow-2xl bg-gainsboro w-[11.63rem] h-[2.63rem]" : "mt-3 transparent border-2 rounded-2xl border-sunset-red shadow-sunset-red shadow-2xl bg-gainsboro w-[11.63rem] h-[2.63rem]"}>
-        <div className="  font-extrabold inline-block w-[11rem] h-[2.19rem] mt-2">
+        <div className="  font-oxanium-semibold inline-block w-[11rem] h-[2.19rem] mt-2">
           CREATOR GROWTH
         </div>
           </div>
 
         <div onMouseEnter={() => setElement("team")} className={element == "team" ? "mt-3 bg-sunset-pink border-2 rounded-2xl border-sunset-pink shadow-sunset-pink shadow-2xl bg-gainsboro w-[11.63rem] h-[2.63rem]" : "mt-3 transparent border-2 rounded-2xl border-sunset-pink shadow-sunset-pink shadow-2xl  bg-gainsboro w-[11.63rem] h-[2.63rem]"}>
-        <div className=" font-extrabold inline-block w-[11rem] h-[2.19rem] mt-2">
+        <div className=" font-oxanium-semibold inline-block w-[11rem] h-[2.19rem] mt-2">
           GG DISCOUNTS
         </div>
           </div>
